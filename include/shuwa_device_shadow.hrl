@@ -1,0 +1,4 @@
+-define(LOCAL, smartdev).
+-define(VCON, 0).
+-define(DEV, 1).
+-define(WORKER_SERVER(Args), {shuwa_device_worker, {shuwa_device_worker, start_link, Args}, transient, 5000, supervisor, [shuwa_device_worker]}).

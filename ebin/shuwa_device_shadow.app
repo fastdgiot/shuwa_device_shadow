@@ -1,0 +1,13 @@
+{application,shuwa_device_shadow,
+             [{description,[24433,23376,35774,22791,31649,29702]},
+              {vsn,"4.0.0"},
+              {modules,[shuwa_devcenter_sup,shuwa_device,shuwa_device_default,
+                        shuwa_device_shadow_app,shuwa_device_shadow_sup,
+                        shuwa_device_utils,shuwa_device_worker,
+                        shuwa_local_devcache,shuwa_product,shuwa_protocol,
+                        shuwa_shadow,shuwa_shadow_sup,shuwa_shadow_worker,
+                        shuwa_tcpclient,shuwa_tcpserver,shuwa_thing,
+                        shuwa_udpserver,shuwa_vcon_mgr_sup,shuwa_vcon_sup]},
+              {registered,[]},
+              {applications,[kernel,stdlib,shuwa_framework,shuwa_public]},
+              {mod,{shuwa_device_shadow_app,[]}}]}.

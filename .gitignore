@@ -1,0 +1,15 @@
+.eunit
+deps
+.git/
+*.plt
+erl_crash.dump
+rel/example_project
+.concrete/DEV_MODE
+.rebar
+.rebar3
+.erlang.mk/
+*.d
+ct.coverdata
+logs/
+test/ct.cover.spec
+data/
